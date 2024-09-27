@@ -24,7 +24,7 @@ function HeroBanner() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        height: windowWidth <= 768 ? '15vh' : '40vh', // Adjusted for better mobile view
+        height: windowWidth <= 768 ? '15vh' : '60vh', // Adjusted for better mobile view
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

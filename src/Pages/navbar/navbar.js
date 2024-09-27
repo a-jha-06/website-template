@@ -31,8 +31,8 @@ function Navbar() {
                     <li><Link to="/resources">Resources</Link></li>
                     <li><Link to="/pricing">Pricing</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/login">Sign In</Link></li>
-                    <li><Link to="/login">Register</Link></li>
+                    <li><button className='button'><Link to="/login">Sign In</Link></button></li>
+                    <li><button className='button'><Link to="/register">Register</Link></button></li>
 
                 </ul>
             </div>

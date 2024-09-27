@@ -9,7 +9,7 @@ export const Box = styled.div`
     width: 100%;
 
     @media (max-width: 1000px) {
-        padding: 4% 2%; /* Adjust padding for medium screens */
+        padding: 2% 2%; /* Adjust padding for medium screens */
     }
 
     @media (max-width: 600px) {

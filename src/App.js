@@ -5,8 +5,8 @@ import Home from './Pages/home'; // Adjust the paths as per your folder structur
 import Login from './Pages/login';
 import Products from './Pages/Products';
 
-import HeroBanner from './Components/Banner'; // Assuming this path is correct
-import Footer from './Components/Footer';  // Assuming this path is correct
+import HeroBanner from './components/Banner'; // Assuming this path is correct
+import Footer from './components/Footer';  // Assuming this path is correct
 
 function App() {
   return (

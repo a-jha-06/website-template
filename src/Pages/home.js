@@ -1,8 +1,9 @@
 import React from 'react';
-import DualImage from '../Components/Dual image card'; // Adjust the import path as necessary
-import Cards from '../Components/project-cards/cards'; // Adjust the import path as necessary
+import DualImage from '../components/Dual image card'; // Adjust the import path as necessary
+import Cards from '../components/project-cards/cards'; // Adjust the import path as necessary
 import image1 from '../images/logo.jpg'; // Replace with your actual image paths
 import image2 from '../images/logo2.jpg'; // Replace with your actual image paths
+import Testimonial from '../components/testimonial';
 
 const home = () => {
     return (
@@ -17,7 +18,9 @@ const home = () => {
                     caption2="Caption for Image 2"
                 />
             </div>
-
+            <div>
+                <Testimonial/>
+</div>
             <div>
                 <Cards />
             </div>

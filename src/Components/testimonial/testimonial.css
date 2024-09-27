@@ -1,0 +1,75 @@
+.quotes-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sub-heading {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px;
+}
+
+/* Adjust for medium screens (tablets) */
+@media (max-width: 1024px) {
+  .quotes-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+}
+
+/* Adjust for small screens (mobile) */
+@media (max-width: 768px) {
+  .quotes-grid {
+    grid-template-columns: 1fr; /* 1 card per row */
+  }
+}
+
+.quote-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.quote-details {
+  display: flex;
+  align-items: center;
+}
+
+.quote-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.quote-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-title {
+  font-weight: bold;
+}
+
+.quote-description {
+  color: #666;
+}

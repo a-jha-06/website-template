@@ -27,8 +27,9 @@ const Footer = () => {
         <FooterContainer>
           <Row>
             <Row>
-              <div>
+              <div className="socialicons">
                 <SocialIcon url="www.youtube.com" />
+                
                 <SocialIcon url="www.instagram.com" />
                 <SocialIcon url="www.twitter.com" />
 
