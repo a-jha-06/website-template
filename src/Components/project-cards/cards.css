@@ -1,0 +1,77 @@
+.card-img, .card-img-bottom, .card-img-top {
+    width: auto;
+    height: 250px; /* Fixed height for the images */
+    padding: 10px; /* Reduced padding for better responsiveness */
+    object-fit: cover; /* Ensures images cover the area without stretching */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.button {
+    background-color: #ADBBDA;
+    border: none;
+    align-items: center;
+    padding: 10px 20px; /* Adjusted padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+/* Heading styles */
+.header {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+/* Card title style */
+.card-title {
+    font-style: italic;
+}
+
+/* Card text color */
+.card {
+    color: #8697c4;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .card-img, .card-img-bottom, .card-img-top {
+        height: 200px; /* Reduced height for smaller screens */
+        padding: 5px; /* Reduced padding */
+    }
+    
+    .button {
+        padding: 10px 15px; /* Adjust button padding */
+        font-size: 14px; /* Smaller font size on mobile */
+    }
+
+    .header {
+        font-size: 24px; /* Smaller heading font on mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .card-img, .card-img-bottom, .card-img-top {
+        height: 150px; /* Further reduce height for very small screens */
+    }
+    
+    .button {
+        padding: 8px 12px; /* Further adjust button padding */
+        font-size: 12px; /* Smaller font size on extra small devices */
+    }
+
+    .header {
+        font-size: 20px; /* Smaller heading font on very small screens */
+    }
+}
+

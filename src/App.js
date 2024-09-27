@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Pages/navbar/navbar'; // Adjusted the path
+import Home from './Pages/home'; // Adjust the paths as per your folder structure
+import Login from './Pages/login';
+import Products from './Pages/Products';
+
+import HeroBanner from './Components/Banner'; // Assuming this path is correct
+import Footer from './Components/Footer';  // Assuming this path is correct
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Router>
+        <div className='container'>
+          <Navbar />
+          <HeroBanner />
+        </div>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} /> {/* lowercase path to ensure uniformity */}
+          <Route path="/products" element={<Products />} /> {/* lowercase path to ensure uniformity */}
+        </Routes>
+
+        <Footer /> {/* Footer outside the Routes */}
+      </Router>
     </div>
   );
 }

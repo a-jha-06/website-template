@@ -1,0 +1,44 @@
+.container {
+    max-width: 100%;
+    height: 100vh; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the content */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center align child elements */
+    gap: 20px; /* Space between child elements */
+}
+
+
+/* Optional: Add responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+}
+.header {
+    background-color: #ADBBDA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 100%;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center; /* Center align the text */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px; /* Reduced padding on smaller screens */
+        font-size: 16px;
+        text-align: center; /* Adjust font size for better readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px; /* Further reduced padding for mobile */
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+}
