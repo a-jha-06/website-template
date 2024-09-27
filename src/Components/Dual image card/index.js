@@ -6,11 +6,11 @@ const DualImage = ({ image1, image2, caption1, caption2 }) => {
         <div className='container'>
             <div className="dual-image-container">
                 <div className="image-wrapper">
-                    <img src={image1} alt="Image 1" className="image" />
+                    <img src={image1} className="image" />
                     {caption1 && <p className="caption">{caption1}</p>}
                 </div>
                 <div className="image-wrapper">
-                    <img src={image2} alt="Image 2" className="image" />
+                    <img src={image2} className="image" />
                     {caption2 && <p className="caption">{caption2}</p>}
                 </div>
             </div>
