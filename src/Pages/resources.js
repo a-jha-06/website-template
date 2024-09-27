@@ -1,6 +1,6 @@
 import React from 'react'
 
-function resources() {
+function Resources() {
   return (
     <div>
       Resources
@@ -8,4 +8,4 @@ function resources() {
   )
 }
 
-export default resources
+export default Resources

@@ -5,7 +5,7 @@ import image1 from '../images/logo.jpg'; // Replace with your actual image paths
 import image2 from '../images/logo2.jpg'; // Replace with your actual image paths
 import Testimonial from '../components/testimonial';
 
-const home = () => {
+const Home = () => {
     return (
         <div className='container'>
 
@@ -29,4 +29,4 @@ const home = () => {
     );
 };
 
-export default home;
+export default Home;

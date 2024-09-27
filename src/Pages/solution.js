@@ -1,6 +1,6 @@
 import React from 'react'
 
-function solution() {
+function Solution() {
   return (
     <div>
       solution
@@ -8,4 +8,4 @@ function solution() {
   )
 }
 
-export default solution
+export default Solution

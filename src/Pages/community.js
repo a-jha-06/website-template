@@ -1,6 +1,6 @@
 import React from 'react'
 
-function community() {
+function Community() {
   return (
     <div>
       Community
@@ -8,4 +8,4 @@ function community() {
   )
 }
 
-export default community
+export default Community
