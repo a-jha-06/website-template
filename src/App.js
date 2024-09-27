@@ -4,8 +4,9 @@ import Navbar from './Pages/navbar/navbar'; // Adjusted the path
 import Home from './Pages/home'; // Adjust the paths as per your folder structure
 import Login from './Pages/login';
 import Products from './Pages/Products';
-import HeroBanner from './components/Banner';
 import Footer from './components/Footer';
+
+import HeroBanner from './components/Banner';
 function App() {
   return (
     <div >
